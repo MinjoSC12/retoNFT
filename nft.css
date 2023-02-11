@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.card  {
+    background-color: hsl(216, 50%, 16%);
+    width: 340px;
+    border-radius: 16px;
+}
+
+.product {
+    padding: 20px;
+    border-radius: 10%;
+}
+
+h2 {
+    color:hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.text1 {
+    color: hsl(215, 51%, 70%);
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.crypto {
+    display: inline-flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.ETH {
+    display: inline-flex;
+    margin-left: 10px;
+    color: hsl(178, 100%, 50%);
+}
+
+.dreloj {
+    display: inline-flex;
+    margin-left: 110px;
+    margin-bottom:10px;
+    color: hsl(215, 51%, 70%);
+
+}
+.reloj {
+    display: inline-flex;
+    margin-left: 5px;
+}
+.foot {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 17px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+}
+.avatar {
+    width: 25px;
+}
+
+h6 {    
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+
+}
+
+span{
+    color: #fff;
+}
